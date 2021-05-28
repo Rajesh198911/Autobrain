@@ -11,7 +11,7 @@ import com.autobrain.pages.SignupWithRetailerDevice;
 
 public class DemoTest extends Base {
 
-	@Test
+//	@Test
 	public void verifySignupWithPersonalDeviceBoughtFromAB() throws Exception {
 		SignupModel SignupModel = new SignupModel();
 
@@ -25,7 +25,7 @@ public class DemoTest extends Base {
 		ss.signupWithBoughtDeviceFromABWebsite();
 	}
 
-//	@Test
+	@Test
 	public void verifySignupWithBusinessDeviceBoughtFromAB() throws Exception {
 
 		SignupModel SignupModel = new SignupModel();
